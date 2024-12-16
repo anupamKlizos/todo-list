@@ -320,7 +320,7 @@ p.empty {
     position: fixed;
     z-index: 1;
     top: 24%;
-    left: 80%;
+    left: 50%;
     transform: translateX(-50%);
     transition: visibility 0s, opacity 0.5s ease-in-out;
     opacity: 0;
@@ -365,8 +365,8 @@ p.empty {
     /* text-align: center; */
     position: fixed;
     z-index: 1;
-    top: 24%;
-    left: 80%;
+    top: 36%;
+    left: 50%;
     transform: translateX(-50%);
     transition: visibility 0s, opacity 0.5s ease-in-out;
     opacity: 0;

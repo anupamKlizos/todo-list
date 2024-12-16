@@ -40,7 +40,7 @@ function addTask() {
     const taskText = taskInput.value.trim();
     const taskList = document.getElementById("todo-list");
    
-    if (taskText !== "") {
+    if (taskText.length > 5 && taskText !== "") {
         if (blank_taskList !=null) {
             blank_taskList.remove();
         }
