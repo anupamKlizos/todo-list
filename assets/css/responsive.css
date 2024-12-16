@@ -1,0 +1,58 @@
+@media (max-width:1200px) {
+    .inner {
+        width: 70%;
+    }
+    .inner h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width:992px) {
+    
+}
+
+@media (max-width:768px) {
+    .inner {
+        width: 80%;
+    }
+    .inner h1 {
+        font-size: 32px;
+    }
+    .todo-list-main h3 {
+        font-size: 18px;
+    }
+    .bottom-box .inner .todo-top-main {
+        padding: 4px;
+    }
+}
+
+@media (max-width:576px) {
+    .inner {
+        width: 90%;
+    }
+    .inner h1 {
+        font-size: 28px;
+    }
+    .bottom-box .inner .todo-top-main input {
+        height: 39px;
+    }
+    .bottom-box .inner .todo-top-main #add-button {
+        padding: 6px 22px;
+        font-size: 15px;
+        height: 45px;
+    }
+    .todo-item {
+        padding: 4px 5px;
+        font-size: 16px;
+    }
+    .inner .dark-light-box {
+        width: 28px;
+        height: 30px;
+    }
+
+    .todo-section .logo {
+        height: 23px;
+        left: 15px;
+        top: 15px;
+    }
+}
